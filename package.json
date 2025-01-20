@@ -1,7 +1,7 @@
 {
-    "name": "@evva/capacitor-secure-storage-plugin",
-    "version": "3.0.1",
-    "description": "Securely store secrets such as usernames, passwords, tokens, certificates or other sensitive information (strings) on iOS & Android",
+    "name": "@jimcase/capacitor-secure-storage-plugin",
+    "version": "3.1.1",
+    "description": "Securely store secrets (strings) on iOS(SimpleKeychain) & Android(EncryptedSharedPreferences)",
     "main": "dist/plugin.cjs.js",
     "type": "module",
     "module": "dist/esm/index.js",
@@ -75,7 +75,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/evva-sfw/capacitor-secure-storage-plugin.git"
+        "url": "https://github.com/jimcase/capacitor-secure-storage-plugin.git"
     },
     "capacitor": {
         "ios": {
