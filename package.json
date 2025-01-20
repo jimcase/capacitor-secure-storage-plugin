@@ -1,6 +1,6 @@
 {
     "name": "@jimcase/capacitor-secure-storage-plugin",
-    "version": "3.1.1",
+    "version": "3.1.2",
     "description": "Securely store secrets (strings) on iOS(SimpleKeychain) & Android(EncryptedSharedPreferences)",
     "main": "dist/plugin.cjs.js",
     "type": "module",
@@ -8,7 +8,7 @@
     "module": "dist/esm/index.js",
     "types": "dist/esm/index.d.ts",
     "unpkg": "dist/plugin.js",
-    "author": "EVVA Sicherheitstechnologie GmbH",
+    "author": "Jaime Caso",
     "scripts": {
         "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
         "verify:ios": "cd ios && pod install && xcodebuild -workspace Plugin.xcworkspace -scheme Plugin -destination generic/platform=iOS && cd ..",
