@@ -4,6 +4,7 @@
     "description": "Securely store secrets (strings) on iOS(SimpleKeychain) & Android(EncryptedSharedPreferences)",
     "main": "dist/plugin.cjs.js",
     "type": "module",
+    "private": false,
     "module": "dist/esm/index.js",
     "types": "dist/esm/index.d.ts",
     "unpkg": "dist/plugin.js",
@@ -75,7 +76,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/jimcase/capacitor-secure-storage-plugin.git"
+        "url": "git+https://github.com/jimcase/capacitor-secure-storage-plugin.git"
     },
     "capacitor": {
         "ios": {
