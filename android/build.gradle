@@ -19,7 +19,7 @@ apply plugin: 'com.android.library'
 apply from: 'variables.gradle'
 
 android {
-    namespace "com.evva.capacitor_secure_storage"
+    namespace "com.jimcase.capacitor_secure_storage"
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

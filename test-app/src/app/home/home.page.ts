@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { SecureStoragePlugin } from "@evva/capacitor-secure-storage-plugin";
+import { SecureStoragePlugin } from "@jimcase/capacitor-secure-storage-plugin";
 import { AlertController } from "@ionic/angular";
 
 @Component({
