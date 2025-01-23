@@ -1,6 +1,6 @@
 {
     "name": "@jimcase/capacitor-secure-storage-plugin",
-    "version": "3.1.3",
+    "version": "3.1.5",
     "description": "Securely store secrets (strings) on iOS(SimpleKeychain) & Android(EncryptedSharedPreferences)",
     "main": "dist/plugin.cjs.js",
     "type": "module",
